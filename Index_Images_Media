@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Audio! Interface</title>
+
+<meta charset="utf-8"/>
+<meta name="Keywords" content="Audio! Interface"/>
+<meta name="Author" content="Callan Potgieter"/>
+<meta name="Description" content="This website helps users listen to music and discover songs."/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- The import web-page's style-sheet goes here-->
+<link rel="stylesheet" href="css/style.css"/>
+<link rel="shortcut icon" href="images/website_logo.png"/> <!-- Creates an image icon for the website-->
+</head>
+<body>
+    <div class="grid-container">
+		
+    <div class="nav-container">
+		<a href="https://projectspace.nz/wlqwpyif/3.4_3.8_iteration_build_CPotgieter/index.html"><img class= "one" src="images/website_logo.png" alt="Adds variation on second page" width="160" height="160"/></a>
+    <div class="menu-toggle" id="abc">
+         <span></span>
+         <span></span>
+         <span></span>
+       </div>
+       </div>
+
+		
+			
+
+ 
+		<div class="topnav" id="myTopnav">
+  <a href="index.html">Home</a>
+  <a href="page2.html">Discover</a>
+  <a href="page3.html">History</a>
+  <a href="contact.html">Contact</a>
+  <div class="dropdown">
+
+
+
+    <div class="dropdown-content">
+
+    </div>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+		<div class ="header">Audio! Interface</div>
+		
+
+
+
+<script>
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+
+
+
+    <div class="footer">Callan Potgieter © copyright, all rights reserved, 2024</div>
+
+
+</body>
+</html>
