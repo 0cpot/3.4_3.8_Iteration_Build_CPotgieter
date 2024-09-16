@@ -1,0 +1,93 @@
+<!--- The Host Address for my website form goes here -->
+
+<!--- https:///cpotgieter.dx.am/form.php -->
+
+<!--- to access form data: Webmail Access, Roundcube, Login: admin@cpotgieter.dx.am Password: as awardspace -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Audio! Interface</title>
+
+<meta charset="utf-8"/>
+<meta name="Keywords" content="Audio! Interface"/>
+<meta name="Author" content="Callan Potgieter"/>
+<meta name="Description" content="This website page is the home page and introduces users to the website."/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" href="images/website_logo.png"/> <!-- Creates an image icon for the website-->
+
+<html>
+<head>
+	<title>Contact</title>
+	<link rel="stylesheet" href="css/contactstyle.css">
+	
+</head>
+<a href="index.html"><img src="images/website_logo.png" alt="gannetbeachlogo" style="width:50x; height:70px;">
+</a>
+<body>
+	<div id = "main">
+					<h1>Contact</h1>
+					<?php
+					//Pull links from the nav.php page and places them in navigation div
+					require("nav.php")//'require' is 100% needed for this site to run
+					?>
+		
+					<?php
+					//Get the connection to the database in php
+					require_once("13_DIT_PHPform_mysqli.php");
+					?>
+		
+		<!-- Form -->
+		<div class="contact_container">
+			<form action="connect.php" method="post">
+
+				
+			<div class="row">
+				
+				<div class="column">
+					
+				<label for="name">Full Name</label>
+					
+				</div>
+	
+				<div class="column2">
+					
+				<input type="text" id="name" name="name" placeholder="Your full name">
+					
+				</div>
+		
+			</div>
+
+
+			<!-- Email Field -->
+			<div class="row">
+				
+				<div class="column">
+					
+				<label for="email">Email Address</label>
+					
+				</div>
+	
+				<div class="column2">
+					
+				<input type="text" id="email" name="email" placeholder="Your email address">
+					
+			</div>
+			
+			
+
+			<!-- Submit Button -->
+			<div class="row">
+			<input type="submit" value="Submit">
+			</div>
+				
+			<!-- copyright statement -->
+			<div id="footer">
+			&copy; Copyright Callan Potgieter, all rights reserved, Tawa College 2024
+			</div>
+				
+		</div>
+</body>
+		
+</html>
