@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Audio! Interface</title>
+
+<meta charset="utf-8"/>
+<meta name="Keywords" content="Audio! Interface"/>
+<meta name="Author" content="Callan Potgieter"/>
+<meta name="Description" content="This website informs the end user about music history."/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- The import web-page's style-sheet goes here-->
+<link rel="stylesheet" href="css/style3.css"/>
+<link rel="shortcut icon" href="images/website_logo.png"/> <!-- Creates an image icon for the website-->
+</head>
+<!-- Main web-page content goes here (sets up website and lays out each section -->
+<body>
+	
+<div class="grid-container"> <!-- Defines the number of columns in your grid layout. It can also define the width of each column -->
+
+<!-- Holds the title that relates to the rest of the web pages content-->
+
+
+  <div class="nav-container">
+	  <a href="https://projectspace.nz/wlqwpyif/3.4_3.8_iteration_build_CPotgieter/Final%20Version/index.html"><img class= "one" src="images/website_logo.png" alt="Adds variation on second page" width="160" height="160"/></a>
+    <div class="menu-toggle" id="abc">
+      <span></span>
+      <span></span>
+      <span></span>
+	
+    </div>
+  </div>
+	
+
+	<!-- The Navigation system starts here -->
+	<div class="nav" id="nav">
+ 	 <div id="navbar">
+		 <div class="nav" id="nav">
+            <div id="navbar">
+                <a href="index.html">Home</a>
+                <a href="page2.html">Discover</a>
+                <a href="page3.html">History</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+            <div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+        </div>
+	</div>
+	<div>
+ 	 <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+	</div>
+	</div>
+	</div>
+	
+	
+
+<div style="padding-left:16px">
+</div>
+
+	<div class ="header">The History</div>
+	<div class ="header2">Why. How. When.</div>
+	
+<p> Modern music is very different from what is was before. Music first arose in the Paleothic Era. 
+		Singing may have appeared before this time, but this is unfortunately impossible to confirm.
+		The oldest instrument according to science, is the Divje Babe Flute from
+		the Divje Babe cave in Slovenia, dated to 43,000 and 82,000. The instrument was made from a cave bear femur. </p>
+	
+<p> Nowdays, music is still prevelant in society. 
+	Music is an essential in civilisation and has the power to emotionally, morally and culturally affect society. When people from one culture exchange music
+	with another, they gain valuable insight into another way of life. This shows the power of music and how deeply rooted it is within us all.</p>
+	
+<p> Many find music stale compared to what it used to be. This should inspire others to pursue creating more original music rather than being contantly inspired by other artists, creating unique music is something 
+	I believe our society should focus on more. Audio! Interface is a music streaming service that aims to achieve this.</p>
+	
+	<img src="images/piano.jpg" class= "piano" style="width:50%">
+	<img src="images/guitar.jpg" class= "guitar" style="width:50%">
+		
+	
+	<div class="footer">Callan Potgieter © copyright, all rights reserved, 2024</div> <!--Adding my copyright onto my footer--></div>
+<a href='#' class="stt" title="scroll to top"></a>
+
+
+
+</body>
+</html>
