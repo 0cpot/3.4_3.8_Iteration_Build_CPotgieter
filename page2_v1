@@ -20,11 +20,7 @@
     <div class="nav-container">
 		<a href="https://projectspace.nz/wlqwpyif/3.4_3.8_iteration_build_CPotgieter/index.html"><img class= "one" src="images/website_logo.png" alt="Adds variation on second page" width="160" height="160"/></a>
     <div class="menu-toggle" id="abc">
-         <span></span>
-         <span></span>
-         <span></span>
-       </div>
-       </div>
+
 
         <div class="nav" id="nav">
             <div id="navbar">
@@ -44,29 +40,5 @@
     <div class="footer">Callan Potgieter © copyright, all rights reserved, 2024</div>
 
 
-<script>
-	
-<script>
-function myFunction() {
-  var x = document.getElementById("nav");
-  if (x.className === "nav") {
-    x.className += " responsive";
-  } else {
-    x.className = "nav";
-  }
-}
-</script>	
-	
-<script>
-  document.querySelectorAll('.song-item').forEach(item => {
-      item.addEventListener('click', () => {
-           const audio = document.getElementById('audio');
-           const source = document.getElementById('audio-source');
-           source.src = item.getAttribute('data-src');
-           audio.load();
-           audio.play();
-            });
-        });
-</script>
 </body>
 </html>
