@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Audio! Interface</title>
+
+<meta charset="utf-8"/>
+<meta name="Keywords" content="Audio! Interface"/>
+<meta name="Author" content="Callan Potgieter"/>
+<meta name="Description" content="This website informs the end user about music history."/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- The import web-page's style-sheet goes here-->
+<link rel="stylesheet" href="css/style3.css"/>
+<link rel="shortcut icon" href="images/website_logo.png"/> <!-- Creates an image icon for the website-->
+</head>
+<!-- Main web-page content goes here (sets up website and lays out each section -->
+<body>
+	
+<div class="grid-container"> <!-- Defines the number of columns in your grid layout. It can also define the width of each column -->
+
+<!-- Holds the title that relates to the rest of the web pages content-->
+
+
+  <div class="nav-container">
+	  <a href="https://projectspace.nz/wlqwpyif/3.4_3.8_iteration_build_CPotgieter/index.html"><img class= "one" src="images/website_logo.png" alt="Adds variation on second page" width="160" height="160"/></a>
+    <div class="menu-toggle" id="abc">
+      <span></span>
+      <span></span>
+      <span></span>
+	
+    </div>
+  </div>
+	
+
+	<!-- The Navigation system starts here -->
+	<div class="nav" id="nav">
+ 	 <div id="navbar">
+		 <div class="nav" id="nav">
+            <div id="navbar">
+                <a href="index.html">Home</a>
+                <a href="page2.html">Discover</a>
+                <a href="page3.html">History</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+            <div>
+
+	
+	
+
+<div style="padding-left:16px">
+</div>
+
+	<div class ="header">The History</div>
+	<div class ="header2">Why. How. When.</div>
+
+
+</body>
+</html>
